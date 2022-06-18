@@ -1,4 +1,4 @@
-(function() {
+
     'use strict';
 
     const slider = document.querySelector('.slider');
@@ -23,4 +23,3 @@
         slideOffset -= slideWidth;
         slider.style.left = -slideOffset + 'px';
     };
-})();
