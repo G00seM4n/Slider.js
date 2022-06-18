@@ -1,4 +1,4 @@
-
+(function(){
     'use strict';
 
     const slider = document.querySelector('.slider');
@@ -19,7 +19,8 @@
 
     btnPrev.onclick = function() {
         if(slideOffset == 0) slideOffset = sliderWidth;
-        
+
         slideOffset -= slideWidth;
         slider.style.left = -slideOffset + 'px';
     };
+});
